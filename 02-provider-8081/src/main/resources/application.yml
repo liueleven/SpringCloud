@@ -9,6 +9,10 @@ eureka:
   # 该服务在注册中心中的名称
   instance:
     instance-id: msc-provider-depart-8081
+#    # 配置客户端多长时间不向服务端发送心跳，就可以让服务端认为当前客户端已经挂了
+#    lease-expiration-duration-in-seconds: 3
+#    # 配置客户端向服务端发送的心跳间隔
+#    lease-renewal-interval-in-seconds: 1
 spring:
   application:
     # 该微服务名称

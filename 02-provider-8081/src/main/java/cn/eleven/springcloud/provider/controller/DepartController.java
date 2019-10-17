@@ -50,6 +50,7 @@ public class DepartController {
 
     @GetMapping("/discovery")
     public List<String> discovery() {
+        // 获取到服务列表中所有微服务名称
         List<String> applicationNames = discoveryClient.getServices();
         for (String name : applicationNames) {
             List<ServiceInstance> instances = discoveryClient.getInstances(name);
