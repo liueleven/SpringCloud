@@ -2,6 +2,7 @@ server:
   port: 8080
 spring:
   application:
+    # 该应用的名称
     name: msc-consumer-depart
 
 
@@ -10,5 +11,5 @@ eureka:
     service-url:
       defaultZone: http://localhost:8100/eureka,http://localhost:8200/eureka,http://localhost:8300/eureka
   instance:
+    # 在 eureka 中的名称
     instance-id: msc-consumer-depart-8080
-    prefer-ip-address: true

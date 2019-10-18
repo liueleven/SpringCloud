@@ -5,7 +5,6 @@ eureka:
   client:
     service-url:
       # 指定要连接的Eureka服务中心地址
-#      defaultZone: http://eureka8100.com:8100/eureka,http://eureka8200.com:8200/eureka,http://eureka8300.com:8300/eureka
       defaultZone: http://localhost:8100/eureka,http://localhost:8200/eureka,http://localhost:8300/eureka
   # 该服务在注册中心中的名称
   instance:

@@ -13,7 +13,7 @@ eureka:
     # 暴露服务中心地址，客户端通过这个地址进行访问
     service-url:
       # 使用${}可以获取当前配置文件中的变量参数，http://${eureka.instance.hostname}:8100/eureka 此处等价于：http://localhost:8000/eureka
-      defaultZone: http://eureka8100.com:8100/eureka,http://eureka8200.com:8200/eureka,http://eureka8300.com:8300/eureka
+      defaultZone: http://eureka8100.com:8100/eureka,http://eureka8200.com:8200/eureka
 
 #  server:
 #    # 配置自我保护阈值，默认0.85
